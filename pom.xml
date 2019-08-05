@@ -15,6 +15,16 @@
         <maven>3.0.2</maven>
     </prerequisites>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-vorpal-research-kotlin-maven</id>
+            <name>vorpal-research-kotlin-maven</name>
+            <url>
+                https://api.bintray.com/maven/vorpal-research/kotlin-maven/${project.artifactId}/;publish=1
+            </url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>
             UTF-8
