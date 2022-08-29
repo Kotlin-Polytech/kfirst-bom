@@ -6,7 +6,7 @@
 
     <groupId>ru.spbstu</groupId>
     <artifactId>kfirst-bom</artifactId>
-    <version>21.0.0</version>
+    <version>22.0.0</version>
     <packaging>pom</packaging>
 
     <name>kfirst-bom</name>
@@ -34,10 +34,10 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
 
-        <kotlin.version>1.5.20</kotlin.version>
+        <kotlin.version>1.7.10</kotlin.version>
         <kotlin.jvm-target.version>1.8</kotlin.jvm-target.version>
-        <kotlin.api.version>1.5</kotlin.api.version>
-        <kotlinx.html.version>0.6.12</kotlinx.html.version>
+        <kotlin.api.version>1.7</kotlin.api.version>
+        <kotlinx.html.version>0.7.5</kotlinx.html.version>
 
         <junit.jupiter.version>5.5.1</junit.jupiter.version>
         <junit.vintage.version>4.12.3</junit.vintage.version>
@@ -109,6 +109,7 @@
             <version>${kotlinx.html.version}</version>
         </dependency>
 
+        <!--suppress VulnerableLibrariesLocal -->
         <dependency>
             <groupId>ru.spbstu</groupId>
             <artifactId>kcheck</artifactId>
